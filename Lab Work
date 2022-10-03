@@ -1,0 +1,104 @@
+#Exercise 1
+total = total + 99
+
+print("The total is now", total)
+
+
+total *= 100
+
+print(total)
+
+
+total = total - 1
+print("The total is", total)
+
+total = total * 4
+print("The total is", total)
+
+total = total / 2
+print("The total is", total)
+
+#Excercise 2
+total = 98.2
+count = 5
+average = ((total + count) / 2)
+print(average)
+
+
+
+print(type(False))
+print(type(1000))
+print(type(100.111))
+print(type("Hello"))
+print(type(True))
+print(type(100/5))
+print(type(100//5))
+
+print("10" + "10")
+
+print("ABC" * 10)
+
+input = print('Hello, is your name "Brian"? Or is your name "Woger"?')
+name = input
+if input == "Brian":
+    print("Hello Brian")
+else:
+    print("Hello Woger")
+
+
+print("""This is a string containing a backslash (\), \na single quote ('), a double quote (") "\nand is split across multiple lines""")
+
+
+
+#Excercise 3
+
+name = "Jonatan Ulaciuk"
+address = "27 Stroothers Place"
+phone = "07981211553"
+name_length = len(name)
+print("Your name is",name, "you live at",address, "and your phone number is",phone,"in total making your name",name_length, "characters long")
+
+
+number1 = input("Choose a number ")
+number1 = int(number1)
+number2 = input("Choose another number ")
+number2 = int(number2)
+print("These two multiplied make up", number1 * number2)
+
+
+#Excercise 4
+
+print("\\\\\\\\\\\\\\\\\\\\\\\\\\\n Hello there!\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\")
+
+
+print("""Welcome, "John", it’s 'nice' to
+See you again
+After such a long time""")
+
+
+print("""This text spans three lines,
+and includes both single ('),
+and double quotes (").""")
+
+surname = "Palin"
+middle = surname[0:5]
+print(middle)
+
+
+primes = [2, 3, 5, 7, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+sliced = primes[0:4]
+print(sliced)
+
+names = ["Terry", "John", "Michael", "Eric", "Terry", "Graham"]
+names[4:5] = ["Danny", "Kyle"]
+print(names)
+
+nums = [1,2,3] * 5
+print(nums)
+
+
+
+
+#Excercise 5
+name = input("Hello, what is your name? ")
+print("Hello,", name, ". Good to meet you")
